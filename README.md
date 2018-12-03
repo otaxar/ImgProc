@@ -38,11 +38,8 @@ The function loops thru the block, where each block contains 4 Y values, but onl
   h)  Once processed, the image is displayed in separate image frame and user can compare the quality loss, depending on settings.
 
 ### Features
--	Image size auto-correction
-The program checks the image width and size and ensures that the image can be sub-divided into 8x8 blocks without any remaining pixels.
+-	Image size auto-correction: The program checks the image width and size and ensures that the image can be sub-divided into 8x8 blocks without any remaining pixels.
 
--	Quantization quality
-User can select the quantization quality in the range 1-100, which 50 set as default. 
+-	Quantization quality: User can select the quantization quality in the range 1-100, which 50 set as default. 
 
--	8x8 block values reporting  (un-finished)
-Initially, the program was supposed to display values of 8x8 block in GUI, to demonstrate how the values change during the process of transformation. The initial concept is implemented at the command line level, where the program displays the values for 8x8 block at the image co-ordinates 128, 128. Unfortunately, as midterms approached and other assignment required my attention, I run out of time and decided not to implement the feature in GUI.
+-	8x8 block values reporting: The program displays the values of 8x8 block in GUI, to demonstrate how the values change during the process of transformation.
