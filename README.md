@@ -43,3 +43,7 @@ The function loops thru the block, where each block contains 4 Y values, but onl
 -	Quantization quality: User can select the quantization quality in the range 1-100, which 50 set as default. 
 
 -	8x8 block values reporting: The program displays the values of 8x8 block in GUI, to demonstrate how the values change during the process of transformation.
+
+### TODO:
+- [ ] Implement the process indicator (Please Wait, processing ... )
+- [ ] Reimplement the program in C++, use Pointers to loop thru the blocks (way faster) 
