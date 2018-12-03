@@ -2,7 +2,7 @@
 
 This project demonstrates the effects of quantization on JPEG image
 
-Steps in the process:
+### Steps in the process:
 1)	Load the image and display in original quality.
 2)	Select compression (quantization) quality.
 3)	Adjust quantization matrices Y and UV, depending on quality selected.
@@ -15,7 +15,7 @@ Steps in the process:
 10)	Convert YUV420 to RGB
 11)	Display compressed quality image
 
-Program Details
+### Program Details
 
 1) Simple GUI allows user to load and display an image, using File explorer. Once loaded, it is displayed in its original
    quality in 512x512 image frame.  User can select compression quality and process the image. 
@@ -37,7 +37,7 @@ The function loops thru the block, where each block contains 4 Y values, but onl
 
   h)  Once processed, the image is displayed in separate image frame and user can compare the quality loss, depending on settings.
 
-Features
+### Features
 -	Image size auto-correction
 The program checks the image width and size and ensures that the image can be sub-divided into 8x8 blocks without any remaining pixels.
 
