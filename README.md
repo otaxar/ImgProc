@@ -46,4 +46,4 @@ The function loops thru the block, where each block contains 4 Y values, but onl
 
 ### TODO:
 - [ ] Implement the process indicator (Please Wait, processing ... )
-- [ ] Reimplement the program in C++, use Pointers to loop thru the blocks (way faster) 
+- [ ] Reimplement the program in C++ and Qt, use Pointers for the Block processing loops (way faster) 
