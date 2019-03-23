@@ -1,6 +1,6 @@
 # ImgProc
 
-This project demonstrates the effects of quantization on JPEG image
+This project demonstrates the effects of quantization on images during JPEG compression.
 
 ### Steps in the process:
 1)	Load the image and display in original quality.
